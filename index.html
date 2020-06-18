@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Pricing component with toggle</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="header">
+                <h1>Our Pricing</h1>
+                <div class="button">
+                    <span>Annually</span>
+                    <label class="switch">
+                        <input type="checkbox" onclick="price()">
+                        <span class="slider round"></span>
+                    </label>
+                    <span>Monthly</span>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <h3>Basic</h3>
+                    <div class="price">
+                        <span>$</span>
+                        <h2 id="price1">199.99</h2>
+                    </div>
+                    <div class="info">
+                        <span>500 GB Storage</span>
+                    </div>
+                    <div class="info">
+                        <span>2 Users Allowed</span>
+                    </div>
+                    <div class="info">
+                        <span>Send up to 3 GB</span>
+                    </div>
+                    <button>LEARN MORE</button>
+                </div>
+                <div class="box">
+                    <h3>Professional</h3>
+                    <div class="price">
+                        <span>$</span>
+                        <h2 id="price2">249.99</h2>
+                    </div>
+                    <div class="info">
+                        <span>1 TB Storage</span>
+                    </div>
+                    <div class="info">
+                        <span>5 Users Allowed</span>
+                    </div>
+                    <div class="info">
+                        <span>Send up to 10 GB</span>
+                    </div>
+                    <button>LEARN MORE</button>
+                </div>
+                <div class="box">
+                    <h3>Master</h3>
+                    <div class="price">
+                        <span>$</span>
+                        <h2 id="price3">399.99</h2>
+                    </div>
+                    <div class="info">
+                        <span>2 TB Storage</span>
+                    </div>
+                    <div class="info">
+                        <span>10 Users Allowed</span>
+                    </div>
+                    <div class="info">
+                        <span>Send up to 20 GB</span>
+                    </div>
+                    <button>LEARN MORE</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/ricardoangelbustos">Ricardo Bustos</a>.
+    </footer>
+</body>
+</html>
